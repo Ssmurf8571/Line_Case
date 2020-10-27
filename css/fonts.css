@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Georgia';
+    src: local('Georgia Italic'), local('Georgia-Italic'),
+        url('Georgia-Italic.woff2') format('woff2'),
+        url('Georgia-Italic.woff') format('woff'),
+        url('Georgia-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+@font-face {
+    font-family: 'Sintony';
+    src: local('Sintony Regular'), local('Sintony-Regular'),
+        url('Sintony.woff2') format('woff2'),
+        url('Sintony.woff') format('woff'),
+        url('Sintony.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

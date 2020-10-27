@@ -1,0 +1,210 @@
+*::-webkit-input-placeholder {color: #666; opacity: 1;}
+*:-moz-placeholder {color: #666;opacity: 1;}
+*::-moz-placeholder {color: #666;opacity: 1;}
+*:-ms-input-placeholder {color: #666;opacity: 1;}
+body input:focus:required:invalid, body textarea:focus:required:invalid {}
+body input:required:valid, body textarea:required:valid {}
+html.js .loader {background: none repeat scroll 0 0 #ffffff;bottom: 0;height: 100%;left: 0;position: fixed;right: 0;top: 0;width: 100%;z-index: 9999;}
+html.js .loader_inner {background-image: url("../img/preloader.gif");background-size: cover;background-repeat: no-repeat;background-position: center center;background-color: #fff;height: 60px;width: 60px;margin-top: -30px;margin-left: -30px;left: 50%;top: 50%;position: absolute;}
+body {
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Georgia', 'Sintony', sans-serif;
+	overflow-x: hidden;
+}
+input:focus,select:focus,button:focus,textarea:focus {outline: none;}
+a {text-decoration: none;outline: none;}
+ul,ol {padding: 0;margin: 0;list-style: none;}
+
+.hidden {display: none;}
+
+h1,h2,h3,h4,h5,h6 {	margin: 0; color: #858585; font-weight: 400;}
+
+h1 {font-size: 60px;}
+h2 {font-size: 30px;}
+h3 {font-size: 20px;}
+h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
+p {font-size: 13px;}
+
+.background {
+	background: url(../img/header_bg.jpg) no-repeat;
+  background-size: cover;
+  height: 655px;
+}
+
+header {
+	padding: 40px 0 0; 
+}
+
+.banner {
+	display: flex;
+	margin: -25px 0 0;
+}
+
+.header_text {
+	margin: 171px 0 0;
+}
+
+.header_text h3 {
+	font-family: Georgia;
+	margin: 30px 0 0;
+  color: #91daf6;
+}
+
+.illustrative__works, .graphical_work {
+  margin: 55px 0 0;
+}
+
+.illustrative__works h2, .graphical_work h2 {
+  font-family: Sintony;
+  text-transform: uppercase;
+  color: #00aeef;
+}
+
+.illustrative__works p, .graphical_work p {
+  font-family: Georgia;
+  max-width: 781px;
+  color: #858585;
+  line-height: 24px;
+}
+
+.slide__block {
+  margin: 0 20px;
+  width: 190px;
+  height: 159px;
+  background-color: #abbcc3;
+  border-radius: 2px;
+}
+
+.slick-dots {
+  margin: 0 45px 0;
+  bottom: -45px;
+  width: auto;
+}
+
+.slick-dots li button::before {
+  color: transparent;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  border: 2px solid #00aeef;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  margin: -2px 0 0;
+  color: #009ad4;
+  border: 0px;
+  opacity: 1;
+}
+
+.last_block {
+  margin: 90px 0 66px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.design_illustrative, .years-of-experience {
+  margin: 15px auto;
+  max-width: 440px;
+}
+
+.design_illustrative h6, .years-of-experience h6 {
+ margin: 0 0 15px;
+}
+
+footer {
+  background-color: #151c27;
+} 
+
+.footer__block {
+  margin: 40px auto 236px;
+}
+
+.social__bar {
+  margin: 0 auto 29px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__bar h6 {
+  font-family: Georgia;
+  align-self: flex-end;
+  color: #2c3b52;
+}
+
+.social__bar .social_icons {
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+.social_icon {
+  margin: 0 10px;
+  width: 60px;
+  height: 54px;
+  border-radius: 0 0 3px 3px;
+}
+
+.social_icons .icon_1 {
+  background-color: #ffaa16;
+}
+
+.social_icons .icon_2 {
+  background-color: #ec5b95;
+}
+
+.social_icons .icon_3 {
+  background-color: #00aeef;
+}
+
+.social_icons .icon_4 {
+  background-color: #0054a6;
+}
+
+.social_icons .icon_1 img {
+  margin: 17px 0 0 19px;
+}
+
+.social_icons .icon_2 img {
+  margin: 14px 0 0 16px;
+}
+
+.social_icons .icon_3 img {
+  margin: 16px 0 0 14px;
+}
+
+.social_icons .icon_4 img {
+  margin: 15px 0 0 24px;
+}
+
+.newsletter_input input {
+  padding: 26px 34px 29px 39px;
+  width: 467px;
+  height: 20px;
+  background: #080c11 url(../img/social/email_504.png) 92% 50% no-repeat;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.newsletter_input input::placeholder {
+  font-family: 'Sintony';
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#email_input {
+  display: none;
+}
+
+.slick-arrow {
+  display: none;
+}
